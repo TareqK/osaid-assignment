@@ -8,6 +8,7 @@ package me.kisoft.osaid.interfaces;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Scanner;
+import me.kisoft.osaid.entity.Vendable;
 
 /**
  *
@@ -39,7 +40,7 @@ public abstract class Vendor {
    *
    * @return a list of money slots
    */
-  abstract List<MoneySlot> getMoneySlots();
+  public abstract List<MoneySlot> getMoneySlots();
 
   /**
    *
@@ -78,7 +79,7 @@ public abstract class Vendor {
    * @param v the item to check
    * @return the number of items remaining of a venable
    */
-  int getRemainingStock(Vendable v) {
+  public int getRemainingStock(Vendable v) {
     return getStock().get(v);
   }
 

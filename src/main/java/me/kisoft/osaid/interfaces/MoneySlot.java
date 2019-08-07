@@ -27,14 +27,6 @@ public interface MoneySlot {
   public float add(float money);
 
   /**
-   * Whether this money is acceptable or not
-   *
-   * @param money the money to check
-   * @return true if acceptable, false otherwise
-   */
-  public boolean accept(float money);
-
-  /**
    * A string of acceptable denominations
    *
    * @return the acceptable denominations

@@ -5,6 +5,8 @@
  */
 package me.kisoft.osaid.interfaces;
 
+import me.kisoft.osaid.entity.Vendable;
+
 /**
  *
  * @author tareq
